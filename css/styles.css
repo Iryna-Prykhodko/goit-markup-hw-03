@@ -1,0 +1,201 @@
+:root {
+    /*fonts*/
+--main-font:'Roboto', sans-serif;
+--second-font:'Raleway', sans-serif;
+
+/* Text colors */
+--main-text-cl:#212121;
+--second-text-cl:#2196F3;
+--third-text-cl:#757575;
+--fourth-text-cl:#FFFFFF;
+
+/* backgrounds*/
+--accent-bg-cl: #FFFFFF;
+--second-bg-cl: #2F303A;
+--third-bg-cl:#2196F3;
+}
+
+.page {
+    font-family: var(--main-font);
+    color: var(--main-text-cl);
+    background-color: var(--accent-bg-cl);
+}
+.logo-link{ 
+text-decoration-line: none;  
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+
+}  
+.logo-header{
+    color:#000000;
+}
+.list{
+list-style: none;   
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em
+}
+.link {
+text-decoration: none;
+color: currentColor;
+font-style: normal;
+}
+.list-link{
+    text-decoration: none;
+    color: currentColor;
+}
+.link:hover,
+.link:focus {color:var(--second-text-cl);
+}
+a:{
+    text-decoration-color: none;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+.list-item-contact {
+    color:var(--third-text-cl);}
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: var(--fourth-text-cl);
+    font-family: var(--second-font);
+    font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+
+.btn-hero{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87; 
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;  
+cursor: pointer;
+color: var(--fourth-text-cl);
+width: 216px;
+height: 50px;
+left: 692px;
+top: 430px;
+background:var(--third-bg-cl)
+}
+.subtitle{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.subtitle-text{
+color: var(--third-text-cl);
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+.team{
+    background: #F5F4FA;
+}
+.title-card{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+.text-card {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--third-text-cl)
+}
+.logo-footer{
+color: var(--fourth-text-cl);    
+}
+.footer {
+background-color: var(--second-bg-cl);
+}
+.adress {
+text-decoration-line: none;    
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--fourth-text-cl)
+}
+.contacts {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.button:hover,
+.button:focus
+{color: var(--fourth-text-cl);
+background-color: var(--third-bg-cl);
+}
+.button{
+font-family: inherit;
+cursor: pointer;
+background: #F5F4FA;
+color: var(--main-text-cl);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.title-works{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;    
+}
+.text-works{
+font-size: 16px;
+font-weight: 400;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--third-text-cl);}
+
+/*прихований заголовок*/
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  } 
+  .current{
+    color: var(--second-text-cl);
+  }
+  .address{
+font-style: normal;
+text-decoration: none;
+text-decoration-line: none;
+  }
+.address:hover,
+.address:focus {color:var(--second-text-cl);
+}
+.footer.address:hover{
+    color: var(--second-text-cl);
+}
