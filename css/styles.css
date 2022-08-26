@@ -110,6 +110,7 @@ display: inline-block;
 
 .hero {
   background-color: #2f303a;
+  
 }
 
 .hero-title {
@@ -171,13 +172,21 @@ align-items: stretch;
    align-items: normal;
    }
    
-   
-  
 .features-list-item{
   width: 270px;
- 
 }
 
+.title{
+  text-align: center;
+  margin-top: 94px;
+}
+
+.list-services{
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  
+}
 .subtitle {
   font-weight: 700;
   font-size: 14px;
