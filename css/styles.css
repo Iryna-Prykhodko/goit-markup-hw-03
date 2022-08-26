@@ -32,6 +32,7 @@ p {
   margin: 0;
 }
 
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -41,14 +42,14 @@ p {
   display: flex;
 }
 
-.list nav{
+.main-nav{
   display: flex;
-}
+}  
+
+
 .logo-link {
   display: flex;
   align-items: center;
-  margin-top: 24px;
-  margin-left: 25px;
   margin-right: 93px;
   text-decoration-line: none;
   font-family: "Raleway";
@@ -64,8 +65,16 @@ p {
   color: #000000;
 }
 
-.list-item {
-    display: flex;
+.nav-list{
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  align-items: center;
+}
+.link-header{
+padding-top: 32px;
+padding-bottom: 32px;
+display: inline-block;
 }
 
 .list {
