@@ -28,8 +28,10 @@ h3,
 h4, 
 h5,
 h6,
-p {
-  margin: 0;
+p,
+ul {
+ margin: 0;
+ padding: 0;
 }
 
 
@@ -109,6 +111,7 @@ display: inline-block;
 .hero {
   background-color: #2f303a;
 }
+
 .hero-title {
   color: var(--fourth-text-cl);
   font-family: var(--second-font);
@@ -122,12 +125,12 @@ display: inline-block;
 }
 
 .btn-hero {
+  display: block;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   color: var(--fourth-text-cl);
@@ -150,7 +153,20 @@ display: inline-block;
     clip-path: inset(50%);
     margin: -1px;
   }
+
   
+  .features{
+   display: flex; 
+   flex-wrap: wrap;}
+   
+   
+  
+.features-list-item{
+  width: 270px;
+ 
+
+}
+
 .subtitle {
   font-weight: 700;
   font-size: 14px;
