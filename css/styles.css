@@ -187,6 +187,14 @@ align-items: stretch;
   margin-top: 50px;
   
 }
+.list-team{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+  
+  
+}
 .subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -201,8 +209,9 @@ align-items: stretch;
   letter-spacing: 0.03em;
   margin-top: 10px;
 }
-.team {
+.section-team {
   background: #f5f4fa;
+  
 }
 .title-card {
   font-weight: 500;
@@ -233,9 +242,11 @@ align-items: stretch;
   color: var(--fourth-text-cl);
 }
 .address {
+
     font-style: normal;
     text-decoration: none;
     text-decoration-line: none;
+  
   }
   .address:hover,
   .address:focus {
@@ -280,6 +291,3 @@ align-items: stretch;
   letter-spacing: 0.03em;
   color: var(--third-text-cl);
 }
-
-
-
