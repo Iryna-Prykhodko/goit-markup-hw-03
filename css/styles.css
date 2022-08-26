@@ -154,17 +154,28 @@ display: inline-block;
     margin: -1px;
   }
 
-  
+  .section-features{
+     display: flex; 
+   flex-wrap: wrap;
+margin-top: 94px;
+width: 270px;
+align-items: stretch;
+
+  }
+
   .features{
-   display: flex; 
-   flex-wrap: wrap;}
+   display: flex;
+  
+   gap: 30px;
+   margin-left: auto;
+   align-items: normal;
+   }
    
    
   
 .features-list-item{
   width: 270px;
  
-
 }
 
 .subtitle {
@@ -179,6 +190,7 @@ display: inline-block;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 10px;
 }
 .team {
   background: #f5f4fa;
