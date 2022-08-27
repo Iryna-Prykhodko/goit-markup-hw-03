@@ -36,7 +36,7 @@ ul {
 
 
 .container {
-  width: 1200px;
+  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -53,6 +53,7 @@ ul {
   display: flex;
   align-items: center;
   margin-right: 93px;
+  margin-left: 215px;
   text-decoration-line: none;
   font-family: "Raleway";
   font-style: normal;
@@ -71,6 +72,7 @@ ul {
   display: flex;
   gap: 50px;
   margin-left: auto;
+  margin-right: 215px;
   align-items: center;
 }
 .link-header{
@@ -101,6 +103,7 @@ display: inline-block;
 }
 
 .list-item-contact {
+ 
   color: var(--third-text-cl);
 }
 
@@ -209,8 +212,9 @@ align-items: stretch;
   letter-spacing: 0.03em;
   margin-top: 10px;
 }
-.section-team {
+.team {
   background: #f5f4fa;
+  width: 1600px;
   
 }
 .title-card {
