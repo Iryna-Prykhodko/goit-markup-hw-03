@@ -240,6 +240,8 @@ ul {
 }
 .footer {
   background-color: var(--second-bg-cl);
+  width: 1600px;
+  
 }
 .fact-address {
   text-decoration-line: none;
