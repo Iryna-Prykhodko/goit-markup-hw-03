@@ -113,7 +113,7 @@ display: inline-block;
 
 .hero {
   background-color: #2f303a;
-  
+
 }
 
 .hero-title {
@@ -131,7 +131,7 @@ display: inline-block;
 .btn-hero {
   display: block;
   margin: 0 auto;
-  font-weight: 700;
+
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
@@ -158,22 +158,15 @@ display: inline-block;
     margin: -1px;
   }
 
-  .section-features{
+  .features{
      display: flex; 
    flex-wrap: wrap;
+margin-right: 215px;
+margin-left: 215px;
 margin-top: 94px;
-width: 270px;
-align-items: stretch;
-
+gap: 30px;
   }
 
-  .features{
-   display: flex;
-  
-   gap: 30px;
-   margin-left: auto;
-   align-items: normal;
-   }
    
 .features-list-item{
   width: 270px;
