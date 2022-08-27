@@ -41,7 +41,8 @@ ul {
   outline: 2px solid red;
   display: flex;
 }
-.img{
+
+img{
   display: block;
   max-width: 100%;
 }
@@ -387,17 +388,7 @@ background:#F5F4FA;
 border-color: #F5F4FA;
 }
 
-/*btn-hero {
-  display: block;
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.87;
-  align-items: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  color: var(--fourth-text-cl);
-  background: var(--third-bg-cl);
-  font-family: var(--main-font);
-  font-weight: 700;
-  padding: 10px 32px;
-  border-radius: 4px;*/
+.for-border{
+  border: 1px solid #EEEEEE;
+  padding-left: 24px;
+}
