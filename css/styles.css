@@ -25,15 +25,14 @@
 h1,
 h2,
 h3,
-h4, 
+h4,
 h5,
 h6,
 p,
 ul {
- margin: 0;
- padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 
 .container {
   width: 1600px;
@@ -44,10 +43,9 @@ ul {
   display: flex;
 }
 
-.main-nav{
+.main-nav {
   display: flex;
-}  
-
+}
 
 .logo-link {
   display: flex;
@@ -68,17 +66,17 @@ ul {
   color: #000000;
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   gap: 50px;
   margin-left: auto;
   margin-right: 215px;
   align-items: center;
 }
-.link-header{
-padding-top: 32px;
-padding-bottom: 32px;
-display: inline-block;
+.link-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: inline-block;
 }
 
 .list {
@@ -103,7 +101,6 @@ display: inline-block;
 }
 
 .list-item-contact {
- 
   color: var(--third-text-cl);
 }
 
@@ -113,7 +110,6 @@ display: inline-block;
 
 .hero {
   background-color: #2f303a;
-
 }
 
 .hero-title {
@@ -146,57 +142,57 @@ display: inline-block;
 }
 /*прихований заголовок*/
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-  }
-.section-features{
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.section-features {
   margin-left: 215px;
   margin-right: 215px;
   margin-top: 94px;
 }
-  .features{
-     display: flex; 
-   flex-wrap: wrap;
-   justify-content: center;
-   margin-right: 30px;
-  }
-  .features:nth-child(4n){
-    margin-right: 0;
-  }
-  
-   
-.features-list-item{
-  width: 270px;
-  
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 30px;
+}
+.features:nth-child(4n) {
+  margin-right: 0;
 }
 
-.title{
+.features-list-item {
+  width: 270px;
+}
+
+.title {
   text-align: center;
   margin-top: 94px;
 }
 
-.list-services{
+.list-services {
   display: flex;
   gap: 30px;
   margin-top: 50px;
-  
+  margin-left: 215px;
+  margin-right: 215px;
 }
-.list-team{
+.list-team {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 50px;
-  
-  
+  margin-left: 215px;
+  margin-right: 215px;  
 }
+
 .subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -214,7 +210,6 @@ display: inline-block;
 .team {
   background: #f5f4fa;
   width: 1600px;
-  
 }
 .title-card {
   font-weight: 500;
@@ -245,19 +240,17 @@ display: inline-block;
   color: var(--fourth-text-cl);
 }
 .address {
-
-    font-style: normal;
-    text-decoration: none;
-    text-decoration-line: none;
-  
-  }
-  .address:hover,
-  .address:focus {
-    color: var(--second-text-cl);
-  }
-  .footer.address:hover {
-    color: var(--second-text-cl);
-  }
+  font-style: normal;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.address:hover,
+.address:focus {
+  color: var(--second-text-cl);
+}
+.footer.address:hover {
+  color: var(--second-text-cl);
+}
 .contacts {
   font-weight: 400;
   font-size: 14px;
