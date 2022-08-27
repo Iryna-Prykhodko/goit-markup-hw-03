@@ -184,11 +184,10 @@ ul {
 
 .title {
   text-align: center;
-  font-weight: 700;
+font-weight: 700;
 font-size: 36px;
 line-height: 42px;
 letter-spacing: 0.03em;
-margin: 94px auto 50px;
 
 }
 
@@ -196,8 +195,8 @@ margin: 94px auto 50px;
   display: flex;
   gap: 30px;
   margin-top: 50px;
-  margin-left: 215px;
-  margin-right: 215px;
+  
+  
 }
  
 
