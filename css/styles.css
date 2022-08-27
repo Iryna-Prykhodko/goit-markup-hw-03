@@ -41,6 +41,10 @@ ul {
   outline: 2px solid red;
   display: flex;
 }
+.img{
+  display: block;
+  max-width: 100%;
+}
 /* navigation */
 
 .header-container{
@@ -117,11 +121,12 @@ ul {
 
 .hero {
   background-color: #2f303a;
+  padding: 200px 0px;
 }
 
 .hero-title {
   color: var(--fourth-text-cl);
-  font-family: var(--second-font);
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -129,23 +134,23 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .btn-hero {
   display: block;
   margin: 0 auto;
-
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   color: var(--fourth-text-cl);
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
   background: var(--third-bg-cl);
+  font-family: var(--main-font);
+  font-weight: 700;
+  padding: 10px 32px;
+  border-radius: 4px;
 }
 /*прихований заголовок*/
 .visually-hidden {
@@ -168,7 +173,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-right: 30px;
+ 
 }
 .features:nth-child(4n) {
   margin-right: 0;
@@ -180,6 +185,12 @@ ul {
 
 .title {
   text-align: center;
+  font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+margin: 94px auto 50px;
+
 }
 
 .list-services {
@@ -204,48 +215,55 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-top: 10px;
+  font-weight: 400;
 }
 .team {
   background: #f5f4fa;
-  width: 1600px;
 }
 .list-team {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   width: 1170px;
-  margin-top: 50px;
-  margin-left: 215px;
-  margin-right: 215px;
   justify-content: center;
  }
-
+.list-item-team{
+  background-color: var(--accent-bg-cl);
+}
 
 .title-card {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   display: flex;
   justify-content: center;
 }
 .text-card {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--third-text-cl);
 }
+.team-name{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.team-position{
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
 .logo-footer {
   color: var(--fourth-text-cl);
 }
 .footer {
   background-color: var(--second-bg-cl);
-  width: 1600px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   
 }
 .fact-address {
@@ -264,8 +282,6 @@ ul {
 
 }
 .list-address{
-  margin-left: 215px;
-  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
