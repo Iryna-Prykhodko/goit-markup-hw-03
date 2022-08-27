@@ -298,3 +298,11 @@ ul {
   letter-spacing: 0.03em;
   color: var(--third-text-cl);
 }
+
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-portfolio{
+  width: 1170px;
+}
