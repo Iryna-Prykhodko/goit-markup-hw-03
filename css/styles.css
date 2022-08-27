@@ -341,6 +341,15 @@ margin: 94px auto 50px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section-portfolio{
-  width: 1170px;
+
+/* Portfolio*/
+
+.card-set{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.item-set{
+  flex-basis: calc((100%-60px)/3);
 }
