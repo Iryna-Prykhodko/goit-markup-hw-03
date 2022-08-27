@@ -111,6 +111,8 @@ ul {
 
 .list-item-contact {
   color: var(--third-text-cl);
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
 
 .current {
@@ -169,16 +171,15 @@ ul {
 }
 .features {
   display: flex;
-  flex-wrap: wrap;
+  gap: 30px;
   justify-content: center;
  
 }
-.features:nth-child(4n) {
-  margin-right: 0;
-}
+
 
 .features-list-item {
   width: 270px;
+  
 }
 
 .title {
@@ -201,6 +202,9 @@ margin: 94px auto 50px;
  
 
 .subtitle {
+  display: flex;
+  justify-content: center;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -208,6 +212,8 @@ margin: 94px auto 50px;
   text-transform: uppercase;
 }
 .subtitle-text {
+  display: flex;
+  justify-content: center;
   color: var(--third-text-cl);
   font-size: 14px;
   line-height: 1.71;
