@@ -93,9 +93,7 @@ ul {
 .list {
   list-style: none;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  
 }
 .link {
   text-decoration: none;
@@ -353,3 +351,48 @@ margin: 94px auto 50px;
 .item-set{
   flex-basis: calc((100%-60px)/3);
 }
+.list-portfolio-btn{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  gap: 8px;
+}
+
+.list-item-portfolio-btn{
+  display: flex;
+  
+  
+}
+
+.portfolio-btn{
+  padding: 6px 22px;
+  height: 38px;
+  width: auto;
+  display: block;
+  font-family: 'Roboto';
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.03em;
+border-radius: 4px;
+color: var(--main-text-cl);
+background:#F5F4FA;
+border-color: #F5F4FA;
+}
+
+/*btn-hero {
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--fourth-text-cl);
+  background: var(--third-bg-cl);
+  font-family: var(--main-font);
+  font-weight: 700;
+  padding: 10px 32px;
+  border-radius: 4px;*/
