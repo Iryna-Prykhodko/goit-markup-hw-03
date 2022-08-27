@@ -157,19 +157,25 @@ display: inline-block;
     clip-path: inset(50%);
     margin: -1px;
   }
-
+.section-features{
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 94px;
+}
   .features{
      display: flex; 
    flex-wrap: wrap;
-margin-right: 215px;
-margin-left: 215px;
-margin-top: 94px;
-gap: 30px;
+   justify-content: center;
+   margin-right: 30px;
   }
-
+  .features:nth-child(4n){
+    margin-right: 0;
+  }
+  
    
 .features-list-item{
   width: 270px;
+  
 }
 
 .title{
