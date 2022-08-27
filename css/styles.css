@@ -184,15 +184,7 @@ ul {
   margin-left: 215px;
   margin-right: 215px;
 }
-.list-team {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 50px;
-  margin-left: 215px;
-  margin-right: 215px;
-  justify-content: center;  
-}
+ 
 
 .subtitle {
   font-weight: 700;
@@ -212,6 +204,18 @@ ul {
   background: #f5f4fa;
   width: 1600px;
 }
+.list-team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 1170px;
+  margin-top: 50px;
+  margin-left: 215px;
+  margin-right: 215px;
+  justify-content: center;
+ }
+
+
 .title-card {
   font-weight: 500;
   font-size: 16px;
