@@ -257,6 +257,13 @@ img {
   padding-top: 10px;
   padding-bottom: 30px;
 }
+.link-footer{
+  align-items: flex-start;  
+}
+.container-footer{
+ justify-content: flex-start; 
+}
+
 .logo-footer {
   color: var(--fourth-text-cl);
 }
@@ -275,6 +282,7 @@ img {
   color: var(--fourth-text-cl);
 }
 .address {
+  display: flex;
   font-style: normal;
   text-decoration: none;
   text-decoration-line: none;
