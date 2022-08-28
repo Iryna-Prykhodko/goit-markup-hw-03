@@ -51,7 +51,8 @@ img {
 
 .header-container {
   border-bottom: 1px solid #ececec;
-  display: flex;
+  display: flex;}
+
 .main-nav {
   display: flex;
   
@@ -167,7 +168,7 @@ img {
   margin: -1px;
 }
 
-}
+
 .features {
   display: flex;
   gap: 30px;
