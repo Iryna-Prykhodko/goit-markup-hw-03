@@ -243,7 +243,7 @@ img {
 }
 .team-name {
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .team-position {
@@ -285,10 +285,8 @@ address{
   flex-direction: column;
   align-items: flex-start;
 }
-.list-item-address {
-  margin-top: 20px;
+
   
-}
 .list-item-contact {
   margin-top: 9px;
 }
@@ -328,6 +326,7 @@ address{
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .text-works {
   font-size: 16px;
@@ -335,7 +334,7 @@ address{
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--third-text-cl);
-  margin-bottom: 4px;
+
 }
 
 .section {
