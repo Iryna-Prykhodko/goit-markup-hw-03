@@ -360,8 +360,8 @@ address{
   flex-basis: calc((100%-60px) / 3);
 }
 .list-portfolio-btn {
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  justify-content: center;
   margin-bottom: 50px;
   gap: 8px;
 }
